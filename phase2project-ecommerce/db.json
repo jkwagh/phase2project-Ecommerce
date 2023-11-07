@@ -1,0 +1,141 @@
+{
+    "equipment": [
+      {
+        "id": 1,
+        "name": "Amazon Basics Rubber Encased Exercise & Fitness Hex Dumbbell, Hand Weight For Strength Training",
+        "image": "https://m.media-amazon.com/images/I/81qxLfFvXVL._AC_SX679_.jpg",
+        "category": "Strength",
+        "price": 31.97,
+        "description": "20 pound individual dumbbell weight for exercise and strength training",
+        "rating": 4.7
+      },
+      {
+        "id": 2,
+        "name": "ULTRA FUEGO Power Cage, Multi-Functional Power Rack with J-Hooks, Dip Handles, Landmine Attachment and Optional Cable Pulley System for Home Gym",
+        "image": "https://m.media-amazon.com/images/I/61JSqe6vfDL._AC_SX679_.jpg",
+        "category": "Strength",
+        "price": 389.99,
+        "description": "This power cage with pulley system has been built with precise laser cutting and powder coated finish, features 1.5mm thick steel, 50mm x 50mm uprights, extra reinforcing tab, which make it very strong and reliable. 1.14inch holes with 4in hole spacing comes as standard which enables endless possibilities for attachments.",
+        "rating": 4.6
+      },
+      {
+        "id": 3,
+        "name": "CAP Barbell Power Racks and Attachments",
+        "image": "https://m.media-amazon.com/images/I/71sLMZ1A8rL._AC_SX679_.jpg",
+        "category": "Strength",
+        "price": 116.07,
+        "description": "The 11 and 12-gauge steel tubing allows this bench to meet and exceed ASTM testing standards; Recommended maximum weight capacity of 500 pound",
+        "rating": 4.4
+      },
+      {
+        "id": 4,
+        "name": "CAP Barbell Olympic Bars",
+        "image": "https://m.media-amazon.com/images/I/51FKyNvkUzL._AC_SX679_.jpg",
+        "category": "Strength",
+        "price": 59.99,
+        "description": "Made from solid cold rolled steel with a chrome finish; Accommodates Olympic weight plates (with 2-inch center hole); 30-day warranty*",
+        "rating": 4.6
+      },
+      {
+        "id": 5,
+        "name": "AboveGenius Cast Iron 2-Inch Olympic Plate Weight Set for Strength Training, Weightlifting and Crossfit in Home & Gym",
+        "image": "https://m.media-amazon.com/images/I/71QxMqogSwL._AC_SX679_.jpg",
+        "category": "Strength",
+        "price": 66.99,
+        "description": " Package include: 2X2.5lb, 2X5lb and 2X10lb. Whether used alone or as a set, providing a variety of options for your workout",
+        "rating": 4.8
+      },
+      {
+        "id": 6,
+        "name": "YOSUDA Pro Cardio Climber Stepping Elliptical Machine, 3 in 1 Elliptical, Total Body Fitness Cross Trainer with Hyper-Quiet Magnetic Drive System, 16 Resistance Levels, LCD Monitor & iPad Mount",
+        "image": "https://m.media-amazon.com/images/I/61gGatdlUSL._AC_SX679_.jpg",
+        "category": "Cardio",
+        "price": 359.99,
+        "description": "YOSUDA elliptical stepper combines the easy, low-impact motion of an Elliptical, and the cardiorespiratory improving power of a Stepper, with calorie burning power of a Treadmill. Extended vertical and horizontal stride length produces a fluid climbing motion aimed to engage your whole body.",
+        "rating": 4.4
+      },
+      {
+        "id": 7,
+        "name": "MaxiClimber Vertical Climber Combines Resistance Training and High-Intensity Cardio for a Full Body Workout. Free Coach-led Classes & Fitness App",
+        "image": "https://m.media-amazon.com/images/I/71XiF3qTFgL._AC_SX679_.jpg",
+        "category": "Cardio",
+        "price": 179.00,
+        "description": "Versatile and easy-to-use climber that works for all fitness levels, with BONUS companion Fitness App.",
+        "rating": 4.3
+      },
+      {
+        "id": 8,
+        "name": "Marcy Foldable Upright Exercise Bike with Adjustable Resistance for Cardio Workout & Strength Training - Multiple Styles Available",
+        "image": "https://m.media-amazon.com/images/I/61u5fMX94aL._AC_SX679_.jpg",
+        "category": "Cardio",
+        "price": 138.99,
+        "description": "The fat-blasting cardio offered by this exercise device is significant, as each pedal targets the quads, hamstrings, and glutes. Not only does it burn fat, but it also strengthens the leg?s muscles, giving you well-toned legs",
+        "rating": 4.5
+      },
+      {
+        "id": 9,
+        "name": "Sunny Health & Fitness Legacy Stepping Elliptical Machine, Total Body Cross Trainer with Hyper-Quiet Magnetic Belt Drive, Low Impact Exercise Equipment, Optional Bluetooth with Exclusive SunnyFit App",
+        "image": "https://m.media-amazon.com/images/I/718HpYx3KIL._AC_SX679_.jpg",
+        "category": "Cardio",
+        "price": 198.98,
+        "description": "The Sunny Health and Fitness Magnetic Elliptical Cross Trainer is a highly acclaimed cardio equipment, renowned for its exceptional quality, backed by 10,000+ 5-star reviews, and trusted by more than a million satisfied customers",
+        "rating": 4.1
+      },
+      {
+        "id": 10,
+        "name": "SereneLife Folding Treadmill - Foldable Home Fitness Equipment with LCD for Walking & Running - Cardio Exercise Machine - Preset and Adjustable Programs - Bluetooth Connectivity",
+        "image": "https://m.media-amazon.com/images/I/813yX6uMjfL._AC_SX679_.jpg",
+        "category": "Cardio",
+        "price": 339.95,
+        "description": "Our treadmill with incline has a hydraulic folding system for easy storage. When folded, it has a total dimension of just 21.65 L x 24.4 W x 46.4 H inches..Rated Voltage: 120V/60HZ, Adjustable Timer Setting: 5 - 99 Minutes.",
+        "rating": 4.3
+      },
+      {
+        "id": 11,
+        "name": "The Original Stretch Out Strap with Exercise Book - Made in the USA by OPTP - Top Choice of Physical Therapists, Athletic Trainers & Yoga",
+        "image": "https://m.media-amazon.com/images/I/81GERkIoSCL._AC_SX679_.jpg",
+        "category": "Mobility",
+        "price": 15.95,
+        "description": "Top Choice of Physical Therapists: The Original Stretch Out Strap, made in the USA, with instructional exercise book and mobile app featuring video demonstrations. The first stretching strap on the market in 1993, still recommended by professionals today.",
+        "rating": 4.7
+      },
+      {
+        "id": 12,
+        "name": "Gradient Fitness Stretching Strap for Physical Therapy",
+        "image": "https://m.media-amazon.com/images/I/71WmJdItGeL._AC_SY879_.jpg",
+        "category": "Mobility",
+        "price": 14.99,
+        "description": "Measuring 8 feet long, 1.5 inches wide, 12 independent stretching loops, ultra-soft neoprene padded handles. Proven to be durable and long-lasting. The best stretch out strap!",
+        "rating": 4.7
+      },
+      {
+        "id": 13,
+        "name": "Trideer Yoga Ball - Exercise Ball for Workout pilates Stability - Anti-Burst and Slip Resistant for physical therapy, Birthing, Stretching & Core Workout, Office Ball Chair, Flexible Seating, Home Gym",
+        "image": "https://m.media-amazon.com/images/I/617VYtYHR3L._AC_SX679_.jpg",
+        "category": "Mobility",
+        "price": 26.99,
+        "description": "Promotes Health at Work - Trideer yoga ball can help to alleviate your chronic back pain, sciatica, and glute aches from too much sitting by strengthening your core muscles that support your spine and promoting micro movements.",
+        "rating": 4.6
+      },
+      {
+        "id": 14,
+        "name": "Joyenergy Foam Roller for Deep Tissue Massager for Muscle and Myofascial Trigger Point Release",
+        "image": "https://m.media-amazon.com/images/I/61K4b1TcSlL._AC_SX679_.jpg",
+        "category": "Mobility",
+        "price": 15.99,
+        "description": "Muscle stretches and massages can be performed before and after fitness, exercise, and reduce stiffness. Relieve muscle soreness and tension, Penetrates deep into body muscles to quickly release myofascia, Improve muscle flexibility.",
+        "rating": 3.6
+      },
+      {
+        "id": 15,
+        "name": "Chirp Wheel Foam Roller - Targeted Muscle Roller for Deep Tissue Massage, Back Stretcher with Foam Padding, Supports Back Pain Relief",
+        "image": "https://placehold.co/150x150.jpg",
+        "category": "Mobility",
+        "price": 44.99,
+        "description": "Chirp Wheel+ is designed with trigger points in mind to break up tight muscle fibers and hard-to-reach parts in your back instead of putting undue pressure on your spine, so you can focus on deeper stretches without worries. Our 6\" wheel back stretcher gives deep tissue massage and specifically targets the area in contact with the muscles at any given point providing a satisfying amount of pressure in general.",
+        "rating": 4.5
+      }
+    ]
+  }
+  
+  
