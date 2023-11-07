@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import EquipmentList from './EquipmentList';
 
 function NavBar() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -14,12 +15,24 @@ function NavBar() {
     navigate(`/search?query=${encodeURIComponent(searchTerm)}`);
   };
 
+  const [equipmentArray, setEquipmentArray] = useState({}) 
+
+  useEffect(() => {
+  fetch('http://localhost:3000/equipment')
+    .then(resp => resp.json())
+    .then(data => {setEquipmentArray(data)})
+}, []);
+  
   return (
+   <div> 
     <nav className="Navbar">
-      <div className="logo" onClick={() => navigate('/')}>
+      <div className="logo" onClick={() => navigate('/equipment-marketplace')}>
         EcommerceSite
       </div>
       <ul>
+      <li className="EquipmentMarketplace">
+          <Link to="/equipment-marketplace" className='NavBarLinks'> Home </Link>
+        </li>
         <li className="Strength">
           <Link to="/strength" className='NavBarLinks'> Strength </Link>
         </li>
@@ -40,6 +53,8 @@ function NavBar() {
         <button type="submit">Search</button>
       </form>
     </nav>
+    <EquipmentList equipment={equipmentArray}/>
+    </div>
   );
 }
 

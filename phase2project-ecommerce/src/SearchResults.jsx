@@ -12,7 +12,7 @@ function SearchResults() {
 
   useEffect(() => {
     if (searchTerm) {
-      fetch('db.json')
+      fetch('http://localhost:3000/equipment')
         .then(response => response.json())
         .then(data => {
           const filteredResults = data.filter(item => {
