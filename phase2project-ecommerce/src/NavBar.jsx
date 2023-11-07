@@ -15,16 +15,11 @@ function NavBar() {
     navigate(`/search?query=${encodeURIComponent(searchTerm)}`);
   };
 
-  const [equipmentArray, setEquipmentArray] = useState({}) 
-
-  useEffect(() => {
-  fetch('http://localhost:3000/equipment')
-    .then(resp => resp.json())
-    .then(data => {setEquipmentArray(data)})
-}, []);
+ 
   
   return (
    <div> 
+
     <nav className="Navbar">
       <div className="logo" onClick={() => navigate('/equipment-marketplace')}>
         EcommerceSite
@@ -53,7 +48,6 @@ function NavBar() {
         <button type="submit">Search</button>
       </form>
     </nav>
-    <EquipmentList equipment={equipmentArray}/>
     </div>
   );
 }
