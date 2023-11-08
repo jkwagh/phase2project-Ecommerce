@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import EquipmentList from './EquipmentList';
+import './App.css'
+
 
 function Strength({ equipment }) {
 

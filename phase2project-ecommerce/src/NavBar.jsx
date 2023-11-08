@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import EquipmentList from './EquipmentList';
+import './App.css'
+
 
 function NavBar() {
   const [searchTerm, setSearchTerm] = useState('');
