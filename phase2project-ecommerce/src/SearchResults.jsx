@@ -16,7 +16,6 @@ function SearchResults() {
         .then(response => response.json())
         .then(data => {
           const filteredResults = data.filter(item => {
-            // replace `itemProperty` with the actual property you want to search by
             return item.itemProperty.toLowerCase().includes(searchTerm.toLowerCase());
           });
           setResults(filteredResults);

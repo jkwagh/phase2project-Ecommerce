@@ -10,15 +10,28 @@ import './App.css'
 
 function App() {
 
+  const [equipment, setEquipment] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3000/equipment')
+      .then((resp) => resp.json())
+      .then((data) => {
+        setEquipment(data);
+      })
+      .catch((error) => {
+        console.error(`Error fetching strength items: ${error}`);
+      });
+  }, []);
+
   return ( 
     <Router>
       <div>
         <NavBar/>
         <Routes>
           <Route path="equipment-marketplace" element={<EquipmentMarkeplace/>} />
-          <Route path="/strength" element={ <Strength /> }/>
-          <Route path="/mobility" element={ <Mobility /> }/>
-          <Route path="/cardio" element={ <Cardio/> }/>
+          <Route path="/strength" element={ <Strength equipment={equipment}/> }/>
+          <Route path="/mobility" element={ <Mobility equipment={equipment}/> }/>
+          <Route path="/cardio" element={ <Cardio equipment={equipment}/> }/>
           <Route path="/search" element={ <SearchResults /> } />
         </Routes>
       </div>

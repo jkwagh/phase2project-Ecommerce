@@ -1,36 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import EquipmentList from './EquipmentList';
 
-function Mobility() {
-  const [mobilityItems, setMobilityItems] = useState([]);
+function Mobility({ equipment }) {
 
-  useEffect(() => {
-    fetch('http://localhost:3000/equipment')
-      .then((resp) => resp.json())
-      .then((data) => {
-        const mobilityItemsData = data.filter((item) => item.category === 'Mobility');
-        setMobilityItems(mobilityItemsData);
-      })
-      .catch((error) => {
-        console.error(`Error fetching mobility items: ${error}`);
-      });
-  }, []);
+  
+
+  const mobilityItemsData = equipment.filter((item) => item.category === 'Mobility');
+  ;
 
   return (
     <div>
       <h1>Mobility Equipment</h1>
-      {mobilityItems.length > 0 ? (
-        <ul>
-          {mobilityItems.map((mobilityItem) => (
-            <li key={mobilityItem.id}>
-              <h2>{mobilityItem.name}</h2>
-              <img src={mobilityItem.image} alt={mobilityItem.name} />
-              <p>{mobilityItem.description}</p>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p>Loading...</p>
-      )}
+      <EquipmentList equipment={mobilityItemsData}/>
     </div>
   );
 }

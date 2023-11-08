@@ -15,8 +15,6 @@ function NavBar() {
     navigate(`/search?query=${encodeURIComponent(searchTerm)}`);
   };
 
- 
-  
   return (
    <div> 
 
