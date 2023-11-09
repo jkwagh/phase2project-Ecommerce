@@ -1,29 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useLocation } from 'react-router-dom';
-import './App.css'
-
-
-function useQuery() {
-  return new URLSearchParams(useLocation().search);
-}
 
 function SearchResults() {
-  const query = useQuery();
-  const searchTerm = query.get("query");
-  const [results, setResults] = useState([]);
-
-  useEffect(() => {
-    if (searchTerm) {
-      fetch('http://localhost:3000/equipment')
-        .then(response => response.json())
-        .then(data => {
-          const filteredResults = data.filter(item => {
-            return item.itemProperty.toLowerCase().includes(searchTerm.toLowerCase());
-          });
-          setResults(filteredResults);
-        });
-    }
-  }, [searchTerm]);
+  const location = useLocation();
+  const { results, searchTerm } = location.state || { results: [], searchTerm: '' };
 
   return (
     <div>
@@ -32,8 +12,7 @@ function SearchResults() {
         <ul>
           {results.map((item, index) => (
             <li key={index}>
-              {/* Render items here */}
-              {item.itemProperty}
+              {item.name} {/* Assuming each item has an 'itemProperty' property */}
             </li>
           ))}
         </ul>
