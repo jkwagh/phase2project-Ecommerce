@@ -36,13 +36,16 @@ function App() {
       })
   }
 
+  const handleItemDelete = (id) => {
+    setEquipment(equipment.filter(item => item.id !== id));
+  };
 
   return ( 
     <Router>
       <div>
         <NavBar/>
         <Routes>
-          <Route path="equipment-marketplace" element={<EquipmentMarkeplace equipment={equipment} addEquipmentToMarketplace={addEquipmentToMarketplace}/>} />
+          <Route path="/" element={<EquipmentMarkeplace equipment={equipment} addEquipmentToMarketplace={addEquipmentToMarketplace} onDelete={handleItemDelete}/>} />
           <Route path="/strength" element={ <Strength equipment={equipment}/> }/>
           <Route path="/mobility" element={ <Mobility equipment={equipment}/> }/>
           <Route path="/cardio" element={ <Cardio equipment={equipment}/> }/>

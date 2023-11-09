@@ -12,6 +12,21 @@ function EquipmentList({ equipment }) {
     setHoveredItemId(null);
   };
 
+  const handleDelete = (id) => {
+    fetch(`http://localhost:3000/equipment/${id}`, {
+      method: 'DELETE',
+    })
+    .then((resp) => {
+      if (resp.ok) {
+        onDelete(id); 
+      } else {
+      }
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
+  };
+
   return (
     <div>
       <ul className="EquipmentList">
@@ -20,8 +35,8 @@ function EquipmentList({ equipment }) {
             key={item.id}
             className="EquipmentList li"
             onMouseEnter={() => handleMouseEnter(item.id)}
-            onMouseLeave={handleMouseLeave}
-          >
+            onMouseLeave={handleMouseLeave}>
+            <button onClick={() => handleDelete(item.id)}>Delete</button>
             <h2>{item.name}</h2>
             <img src={item.image} alt={item.name} />
             <p>Category: {item.category}</p>

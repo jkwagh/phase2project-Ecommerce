@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import axios from 'axios';
 import './App.css';
 
 function NavBar() {
@@ -8,12 +7,12 @@ function NavBar() {
   return (
     <div> 
       <nav className="Navbar">
-        <div className="logo" onClick={() => navigate('/equipment-marketplace')}>
+        <div className="logo" onClick={() => navigate('/')}>
           EcommerceSite
         </div>
         <ul>
           <li className="EquipmentMarketplace">
-            <Link to="/equipment-marketplace" className='NavBarLinks'> Home </Link>
+            <Link to="/" className='NavBarLinks'> Home </Link>
           </li>
           <li className="Strength">
             <Link to="/strength" className='NavBarLinks'> Strength </Link>

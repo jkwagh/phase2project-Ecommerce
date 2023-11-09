@@ -37,15 +37,6 @@
       "rating": 4.6
     },
     {
-      "id": 5,
-      "name": "AboveGenius Cast Iron 2-Inch Olympic Plate Weight Set for Strength Training, Weightlifting and Crossfit in Home & Gym",
-      "image": "https://m.media-amazon.com/images/I/71QxMqogSwL._AC_SX679_.jpg",
-      "category": "Strength",
-      "price": 66.99,
-      "description": " Package include: 2X2.5lb, 2X5lb and 2X10lb. Whether used alone or as a set, providing a variety of options for your workout",
-      "rating": 4.8
-    },
-    {
       "id": 6,
       "name": "YOSUDA Pro Cardio Climber Stepping Elliptical Machine, 3 in 1 Elliptical, Total Body Fitness Cross Trainer with Hyper-Quiet Magnetic Drive System, 16 Resistance Levels, LCD Monitor & iPad Mount",
       "image": "https://m.media-amazon.com/images/I/61gGatdlUSL._AC_SX679_.jpg",
@@ -142,38 +133,6 @@
       "description": "About this item\n【Professional】More than 20 years of professional fitness equipment production experience, carefully designed by professionals. This is a satisfying and durable home gym.\n【High Quality Thick Steel】The frame and weight guards of the whole set of equipment are made of thick steel. Don't be afraid of any weight challenge!\n【New design】 Leg exercise pedal can exercise more leg muscle groups, more functions than the same type of fitness equipment.\n【Professional service】No matter how long it takes, we will perfectly solve the problems you encounter in use. Always at your service.\n【Easy Installation】The detailed installation instructions and the installation tutorial video with clear steps help you to easily complete the assembly within half an hour. (The screws and nuts are numbered and placed in order)",
       "image": "https://m.media-amazon.com/images/I/71huAIlNyXL._AC_SL1500_.jpg",
       "id": 16
-    },
-    {
-      "name": "Schwinn Fitness Indoor Cycling Exercise Bike Series",
-      "category": "Cardio",
-      "price": "999",
-      "description": "Try our JRNY Mobile-Only Membership for 2 months.\nWorkout at home or on the go with inspiring trainers, and just-for-you adaptive workouts, from your phone or tablet\nTravel through 200+ virtual courses at your own speed or experience them alongside your adaptive workouts\nDesigned to work with popular cycling apps such as Peloton and Zwift (Separate subscriptions required)\nMagnetic resistance with 100 micro-adjustable resistance levels\nDual-sided pedals (SPD clips | Toe Cages)\nAdjustable race-style seat",
-      "image": "https://m.media-amazon.com/images/I/71Y2gX8qNLL._AC_SL1500_.jpg",
-      "id": 17
-    },
-    {
-      "name": "Sunny Health & Fitness Water Rowing Machine, Indoor Exercise Water Rower Plus Optional Bluetooth Connectivity with SunnyFit® App and Wooden Smart Foldable",
-      "category": "Cardio",
-      "price": "599.97",
-      "description": "About this item\nSMART FITNESS: Row along with Sunny Health & Fitness expert trainers on the Sunny Health & Fitness SunnyFit APP. Connect your preferred mobile device through Bluetooth and view your performance metrics in real time.\nSUNNYFIT App: Elevate your fitness journey with SunnyFit app & explore 1000+ workout videos on demand. Engage with expert trainers to receive personalized guidance, and customized workouts. Share, compete for leaderboard and much more.\nWATER PERFORMANCE: Row on the water in the comfort of your home. The water creates a smooth and steady rowing experience with every stroke. Instant resistance is available with the flywheel and 16 fan blades. The faster the fan blades spin the higher resistance and dynamic response caused by the harmonious interaction with the water, giving the user a unique experience.\nDESIGN: Constructed with LIGHTWEIGHT sturdy steel, for solid performance and durability. The 16 Hydro Blades mimic the dynamic movements of competitive rowing. Non- slip HD Handlebar is sweat-resistant and wide enough to accommodate different hand widths. A tear-resistant mesh belt withstands the stress of repeated pulling. Keep the rower sturdy and level with the adjustable leveling end caps.\nERGO-EFFICIENT: Molded padded seat is designed to be comfortable and functional. The high-profile seat design is 17 inches from the ground, which allows user to get on and off the seat without bending and straining you back. Non-slip foot pedals with durable nylon Velcro straps keep feet secure. Footpads pivot to allow more freedom of the foot and ankle to ensure optimal rowing mechanics.",
-      "image": "https://m.media-amazon.com/images/I/410+sEse-kL._AC_US40_.jpg",
-      "id": 18
-    },
-    {
-      "name": "Stick Mobility 3 Stick Training Bundle | Improve Flexibility, Mobility, and Strength with Active Stretching for Golf, Running, Fitness, Pickleball, and More",
-      "category": "Mobility",
-      "price": "259.99",
-      "description": "NIQUE FLEXIBLE STICKS: The Stick Mobility Training Stick is comprised of a special synthetic material designed to be flexible and strong to create resistance, tension, leverage, stability, and body awareness.\nVIDEO LIBRARY OF EXERCISES AND WORKOUTS: Get unlimited access to 100’s of exercises and workouts so you can get the most benefit out of your sticks.\nBEGINNERS TO ADVANCED TRAINING: Used by everyone from people just getting started to professional athletes and everyone in between. This is a complete system for joint mobilization, strength training, and deep fascial stretching to increase athletic performance, reduce the risk of injury, and speed recovery.\nTOTAL BODY MOBILITY SYSTEM: The Stick Mobility Training Bundle comes equipped with everything you need to improve your flexibility, joint strength and stability, and overall body mobility. It's a complete mobility training system.\nUSE ANYWHERE:  Designed for professional use in gyms, medical facilities, and on the sports field. They can be used outdoors, are 100% waterproof, and are easy to clean.",
-      "image": "https://m.media-amazon.com/images/I/51DowXvadcL._AC_SL1080_.jpg",
-      "id": 19
-    },
-    {
-      "name": "Dumbbells",
-      "category": "Strength",
-      "price": "159",
-      "description": "dumbbells",
-      "image": "https://m.media-amazon.com/images/I/61Zo8JWGQJL._AC_SL1500_.jpg",
-      "id": 20
     }
   ]
 }

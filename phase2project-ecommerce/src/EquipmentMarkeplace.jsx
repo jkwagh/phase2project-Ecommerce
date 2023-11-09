@@ -3,7 +3,7 @@ import EquipmentList from './EquipmentList';
 import './App.css'
 
 
-function EquipmentMarkeplace({ equipment, addEquipmentToMarketplace }) {
+function EquipmentMarkeplace({ equipment, addEquipmentToMarketplace , deleteItem}) {
 
   const [formData, setFormData] = useState({
     name: '',
