@@ -30,9 +30,20 @@ function EquipmentMarkeplace() {
     setFormData({ ...formData, [name]: value });
   };
 
+  const options = ['Pick a Category', 'Strength', 'Cardio',  'Mobility'];
+  const handleDropDownChange = (event) => {
+    setFormData({...formData, category: event.target.value});
+  };
+
+
   const handleSubmit = async (event) => {
     event.preventDefault();
 
+    if (formData.category === "" || formData.category === "Pick a Category") {
+      alert('Please select a valid category before submitting');
+      return;
+    }
+    
     try {
       const response = await fetch('http://localhost:3000/equipment', {
         method: 'POST',
@@ -63,10 +74,11 @@ function EquipmentMarkeplace() {
 
   return (
     <>
-      <h1>Home</h1>
-      <p>This will display all equipment</p>
+    <h1>Equipment Marketplace</h1>
+    
       <EquipmentList equipment={equipmentArray} />
-
+    
+    <div className='form-container'>
       <h2>Add New Equipment</h2>
       <form onSubmit={handleSubmit}>
         <div>
@@ -80,12 +92,16 @@ function EquipmentMarkeplace() {
         </div>
         <div>
           <label>Category:</label>
-          <input
-            type="text"
+          <select
             name="category"
             value={formData.category}
-            onChange={handleInputChange}
-          />
+            onChange={handleDropDownChange}
+            defaultValue="Pick a Category">
+            {options.map((option, index) => (
+              <option key={index} value={option}>{option}</option>
+              ))
+            }
+          </select>
         </div>
         <div>
           <label>Price:</label>
@@ -115,6 +131,7 @@ function EquipmentMarkeplace() {
         </div>
         <button type="submit">Submit</button>
       </form>
+      </div>
     </>
   );
 }

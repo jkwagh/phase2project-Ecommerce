@@ -5,7 +5,6 @@ import NavBar from './NavBar'
 import Strength from './Strength'
 import Mobility from './Mobility'
 import Cardio from './Cardio'
-import SearchResults from './SearchResults'
 import './App.css'
 
 function App() {
@@ -32,7 +31,6 @@ function App() {
           <Route path="/strength" element={ <Strength equipment={equipment}/> }/>
           <Route path="/mobility" element={ <Mobility equipment={equipment}/> }/>
           <Route path="/cardio" element={ <Cardio equipment={equipment}/> }/>
-          <Route path="/search" element={ <SearchResults /> } />
         </Routes>
       </div>
     </Router>

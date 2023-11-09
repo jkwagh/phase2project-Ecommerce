@@ -10,7 +10,7 @@ function Strength({ equipment }) {
 
   return (
     <div>
-      <h1>Strength Equipment</h1>
+      <h1>Cardio Equipment</h1>
       <EquipmentList equipment={cardioItemsData}/>
     </div>
   );

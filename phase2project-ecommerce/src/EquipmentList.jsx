@@ -14,7 +14,6 @@ function EquipmentList({ equipment }) {
 
   return (
     <div>
-      <h1>Equipment List</h1>
       <ul className="EquipmentList">
         {equipment.map((item) => (
           <li
