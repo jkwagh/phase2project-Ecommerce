@@ -1,18 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import EquipmentList from './EquipmentList';
-import './App.css'
-
+import './App.css';
+import { motion } from 'framer-motion';
 
 function Strength({ equipment }) {
+  const [strengthItemsData, setStrengthItemsData] = useState([]);
 
-  const strengthItemsData = equipment.filter((item) => item.category === 'Strength');
-  console.log(strengthItemsData);
+  // Use a separate useEffect to update the state when equipment changes
+  useEffect(() => {
+    const strengthData = equipment.filter((item) => item.category === 'Strength');
+    setStrengthItemsData(strengthData);
+  }, [equipment]);
 
   return (
-    <div>
-      <h1>Strength Equipment</h1>
-      <EquipmentList equipment={strengthItemsData}/>
-    </div>
+    <motion.div
+      className='Strength'
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+      <div>
+        <h1>Strength Equipment</h1>
+        <EquipmentList equipment={strengthItemsData} />
+      </div>
+    </motion.div>
   );
 }
 
