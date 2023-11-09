@@ -1,5 +1,5 @@
 import React, {useState, useEffect}  from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import EquipmentMarkeplace from './EquipmentMarkeplace'
 import NavBar from './NavBar'
 import Strength from './Strength'
@@ -57,3 +57,4 @@ function App() {
 }
 
 export default App
+
