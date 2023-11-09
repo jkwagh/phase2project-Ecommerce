@@ -3,8 +3,8 @@ import EquipmentList from './EquipmentList';
 import './App.css'
 
 
-function EquipmentMarkeplace() {
-  const [equipmentArray, setEquipmentArray] = useState([]);
+function EquipmentMarkeplace({ equipment, addEquipmentToMarketplace }) {
+
   const [formData, setFormData] = useState({
     name: '',
     category: '',
@@ -13,17 +13,6 @@ function EquipmentMarkeplace() {
     image: '',
   });
 
-  useEffect(() => {
-    fetch('http://localhost:3000/equipment')
-      .then((resp) => resp.json())
-      .then((data) => {
-        setEquipmentArray(data);
-      });
-  }, []);
-
-  const addEquipmentToMarketplace = (newEquipment) => {
-    setEquipmentArray([...equipmentArray, newEquipment]);
-  };
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -35,48 +24,21 @@ function EquipmentMarkeplace() {
     setFormData({...formData, category: event.target.value});
   };
 
-
-  const handleSubmit = async (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
 
     if (formData.category === "" || formData.category === "Pick a Category") {
       alert('Please select a valid category before submitting');
       return;
-    }
-    
-    try {
-      const response = await fetch('http://localhost:3000/equipment', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
-
-      if (response.ok) {
-       
-        addEquipmentToMarketplace(formData);
-
-        setFormData({
-          name: '',
-          category: '',
-          price: '',
-          description: '',
-          image: '',
-        });
-      } else {
-       
-      }
-    } catch (error) {
-     
-    }
+    } 
+    addEquipmentToMarketplace(formData);
   };
 
   return (
     <>
     <h1>Equipment Marketplace</h1>
     
-      <EquipmentList equipment={equipmentArray} />
+      <EquipmentList equipment={equipment} />
     
     <div className='form-container'>
       <h2>Add New Equipment</h2>

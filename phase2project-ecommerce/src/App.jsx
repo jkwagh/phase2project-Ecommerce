@@ -22,12 +22,27 @@ function App() {
       });
   }, []);
 
+  const addEquipmentToMarketplace = (newEquipment) => {
+    fetch('http://localhost:3000/equipment', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newEquipment),
+      })
+      .then((resp) => resp.json())
+      .then((data) => {
+        setEquipment([...equipment, data])
+      })
+  }
+
+
   return ( 
     <Router>
       <div>
         <NavBar/>
         <Routes>
-          <Route path="equipment-marketplace" element={<EquipmentMarkeplace/>} />
+          <Route path="equipment-marketplace" element={<EquipmentMarkeplace equipment={equipment} addEquipmentToMarketplace={addEquipmentToMarketplace}/>} />
           <Route path="/strength" element={ <Strength equipment={equipment}/> }/>
           <Route path="/mobility" element={ <Mobility equipment={equipment}/> }/>
           <Route path="/cardio" element={ <Cardio equipment={equipment}/> }/>
