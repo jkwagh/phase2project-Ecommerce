@@ -4,12 +4,16 @@ import './App.css'
 import { motion } from 'framer-motion';
 
 
-function Mobility({ equipment }) {
+function Mobility({ equipment, onDelete }) {
 
   
 
   const mobilityItemsData = equipment.filter((item) => item.category === 'Mobility');
   ;
+
+  const handleDelete = (id) =>{
+    onDelete(id);
+  }
 
   return (
     <motion.div
@@ -23,7 +27,7 @@ function Mobility({ equipment }) {
    >
     <div>
       <h1>Mobility Equipment</h1>
-      <EquipmentList equipment={mobilityItemsData}/>
+      <EquipmentList equipment={mobilityItemsData} onDelete={handleDelete}/>
     </div>
     </motion.div>
   );

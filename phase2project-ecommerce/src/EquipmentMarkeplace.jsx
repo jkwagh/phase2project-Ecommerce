@@ -4,7 +4,7 @@ import './App.css'
 import { motion } from 'framer-motion';
 
 
-function EquipmentMarkeplace({ equipment, addEquipmentToMarketplace , deleteItem}) {
+function EquipmentMarkeplace({ equipment, addEquipmentToMarketplace , onDelete}) {
 
   const [formData, setFormData] = useState({
     name: '',
@@ -35,11 +35,15 @@ function EquipmentMarkeplace({ equipment, addEquipmentToMarketplace , deleteItem
     addEquipmentToMarketplace(formData);
   };
 
+  const handleDelete = (id) =>{
+    onDelete(id);
+  }
+
   return (
     <>
       <h1>Equipment Marketplace</h1>
 
-      <EquipmentList equipment={equipment} />
+      <EquipmentList equipment={equipment} onDelete={handleDelete}/>
 
       <div className="form-container">
         <h2>Add New Equipment</h2>

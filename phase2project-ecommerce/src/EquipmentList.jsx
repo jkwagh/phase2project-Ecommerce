@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-function EquipmentList({ equipment }) {
+function EquipmentList({ equipment, onDelete }) {
   const [hoveredItemId, setHoveredItemId] = useState(null);
 
   const handleMouseEnter = (id) => {
@@ -12,20 +12,9 @@ function EquipmentList({ equipment }) {
     setHoveredItemId(null);
   };
 
-  const handleDelete = (id) => {
-    fetch(`http://localhost:3000/equipment/${id}`, {
-      method: 'DELETE',
-    })
-    .then((resp) => {
-      if (resp.ok) {
-        onDelete(id); 
-      } else {
-      }
-    })
-    .catch((error) => {
-      console.error('Error:', error);
-    });
-  };
+const handleDelete = (id) => {
+  onDelete(id);
+};
 
   return (
     <div>

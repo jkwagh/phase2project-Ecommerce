@@ -36,8 +36,23 @@ function App() {
       })
   }
 
-  const handleItemDelete = (id) => {
-    setEquipment(equipment.filter(item => item.id !== id));
+  // const handleItemDelete = (id) => {
+    
+  // };
+
+  const handleDelete = (id) => {
+    fetch(`http://localhost:3000/equipment/${id}`, {
+      method: 'DELETE',
+    })
+    .then((resp) => {
+      if (resp.ok) {
+        setEquipment(equipment.filter(item => item.id !== id));
+      } else {
+      }
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
   };
 
   return ( 
@@ -45,10 +60,10 @@ function App() {
       <div>
         <NavBar/>
         <Routes>
-          <Route path="/" element={<EquipmentMarkeplace equipment={equipment} addEquipmentToMarketplace={addEquipmentToMarketplace} onDelete={handleItemDelete}/>} />
-          <Route path="/strength" element={ <Strength equipment={equipment}/> }/>
-          <Route path="/mobility" element={ <Mobility equipment={equipment}/> }/>
-          <Route path="/cardio" element={ <Cardio equipment={equipment}/> }/>
+          <Route path="/" element={<EquipmentMarkeplace equipment={equipment} addEquipmentToMarketplace={addEquipmentToMarketplace} onDelete={handleDelete}/>} />
+          <Route path="/strength" element={ <Strength equipment={equipment} onDelete={handleDelete}/> }/>
+          <Route path="/mobility" element={ <Mobility equipment={equipment} onDelete={handleDelete}/> }/>
+          <Route path="/cardio" element={ <Cardio equipment={equipment} onDelete={handleDelete}/> }/>
         </Routes>
       </div>
     </Router>

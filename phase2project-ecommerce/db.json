@@ -28,15 +28,6 @@
       "rating": 4.4
     },
     {
-      "id": 4,
-      "name": "CAP Barbell Olympic Bars",
-      "image": "https://m.media-amazon.com/images/I/51FKyNvkUzL._AC_SX679_.jpg",
-      "category": "Strength",
-      "price": 59.99,
-      "description": "Made from solid cold rolled steel with a chrome finish; Accommodates Olympic weight plates (with 2-inch center hole); 30-day warranty*",
-      "rating": 4.6
-    },
-    {
       "id": 6,
       "name": "YOSUDA Pro Cardio Climber Stepping Elliptical Machine, 3 in 1 Elliptical, Total Body Fitness Cross Trainer with Hyper-Quiet Magnetic Drive System, 16 Resistance Levels, LCD Monitor & iPad Mount",
       "image": "https://m.media-amazon.com/images/I/61gGatdlUSL._AC_SX679_.jpg",
@@ -55,15 +46,6 @@
       "rating": 4.3
     },
     {
-      "id": 8,
-      "name": "Marcy Foldable Upright Exercise Bike with Adjustable Resistance for Cardio Workout & Strength Training - Multiple Styles Available",
-      "image": "https://m.media-amazon.com/images/I/61u5fMX94aL._AC_SX679_.jpg",
-      "category": "Cardio",
-      "price": 138.99,
-      "description": "The fat-blasting cardio offered by this exercise device is significant, as each pedal targets the quads, hamstrings, and glutes. Not only does it burn fat, but it also strengthens the leg?s muscles, giving you well-toned legs",
-      "rating": 4.5
-    },
-    {
       "id": 9,
       "name": "Sunny Health & Fitness Legacy Stepping Elliptical Machine, Total Body Cross Trainer with Hyper-Quiet Magnetic Belt Drive, Low Impact Exercise Equipment, Optional Bluetooth with Exclusive SunnyFit App",
       "image": "https://m.media-amazon.com/images/I/718HpYx3KIL._AC_SX679_.jpg",
@@ -71,15 +53,6 @@
       "price": 198.98,
       "description": "The Sunny Health and Fitness Magnetic Elliptical Cross Trainer is a highly acclaimed cardio equipment, renowned for its exceptional quality, backed by 10,000+ 5-star reviews, and trusted by more than a million satisfied customers",
       "rating": 4.1
-    },
-    {
-      "id": 10,
-      "name": "SereneLife Folding Treadmill - Foldable Home Fitness Equipment with LCD for Walking & Running - Cardio Exercise Machine - Preset and Adjustable Programs - Bluetooth Connectivity",
-      "image": "https://m.media-amazon.com/images/I/813yX6uMjfL._AC_SX679_.jpg",
-      "category": "Cardio",
-      "price": 339.95,
-      "description": "Our treadmill with incline has a hydraulic folding system for easy storage. When folded, it has a total dimension of just 21.65 L x 24.4 W x 46.4 H inches..Rated Voltage: 120V/60HZ, Adjustable Timer Setting: 5 - 99 Minutes.",
-      "rating": 4.3
     },
     {
       "id": 11,
@@ -91,40 +64,28 @@
       "rating": 4.7
     },
     {
-      "id": 12,
-      "name": "Gradient Fitness Stretching Strap for Physical Therapy",
-      "image": "https://m.media-amazon.com/images/I/71WmJdItGeL._AC_SY879_.jpg",
-      "category": "Mobility",
-      "price": 14.99,
-      "description": "Measuring 8 feet long, 1.5 inches wide, 12 independent stretching loops, ultra-soft neoprene padded handles. Proven to be durable and long-lasting. The best stretch out strap!",
-      "rating": 4.7
+      "name": "YOSUDA Indoor Cycling Bike/Magnetic Stationary Bike - Cycle Bike with Ipad Mount & Comfortable Seat Cushion",
+      "category": "Cardio",
+      "price": "850",
+      "description": "EXERCISE BIKE\n【Smooth Stationery Bike】35lbs flywheel and heavy-duty steel frame of the exercise bike guarantee the stability while cycling. The belt driven system provides a smoother and quieter ride than chain transport. It won't disturb your apartment neighbors or sleeping kids.\n【Personalized Fit Exercise Bike】2-ways adjustable non-slip handlebar, 4-ways padded seat (inseam height 25-35in) and a large range of resistance give users a comfortable indoor riding experience. Workout your muscles / lose weight / enhance heart /lung function. 270 lbs weight capacity.\n【LCD Monitor and Ipad Mount】The LCD monitor on exercise bike tracks your time, speed, distance, calories burned and odometer. The gift Ipad holder allows you to enjoy exercising and music at the same time, making it easier to keep exercising.\n【Safe to Use】The adjustable cage pedals on exercise bike protects you from a fast ride. Press the resistance bar to stop the flywheel immediately. The water bottle holder allows you to replenish water in time. Transport wheels help you easily move this cycle machine. All parts are protected and your little baby can't reach them.\n【What You Get】A YOSUDA exercise bike, all tools and instructions are in the package. Online instruction video can help you complete the assembly within 30 minutes. ONE YEAR FREE parts replacement.",
+      "image": "https://m.media-amazon.com/images/I/61CCbx3dtkS._AC_SL1500_.jpg",
+      "id": 12
     },
     {
-      "id": 13,
-      "name": "Trideer Yoga Ball - Exercise Ball for Workout pilates Stability - Anti-Burst and Slip Resistant for physical therapy, Birthing, Stretching & Core Workout, Office Ball Chair, Flexible Seating, Home Gym",
-      "image": "https://m.media-amazon.com/images/I/617VYtYHR3L._AC_SX679_.jpg",
+      "name": "Stick Mobility 3 Stick Training Bundle | Improve Flexibility, Mobility, and Strength with Active Stretching for Golf, Running, Fitness, Pickleball, and More",
       "category": "Mobility",
-      "price": 26.99,
-      "description": "Promotes Health at Work - Trideer yoga ball can help to alleviate your chronic back pain, sciatica, and glute aches from too much sitting by strengthening your core muscles that support your spine and promoting micro movements.",
-      "rating": 4.6
+      "price": "260",
+      "description": "UNIQUE FLEXIBLE STICKS: The Stick Mobility Training Stick is comprised of a special synthetic material designed to be flexible and strong to create resistance, tension, leverage, stability, and body awareness.\nVIDEO LIBRARY OF EXERCISES AND WORKOUTS: Get unlimited access to 100’s of exercises and workouts so you can get the most benefit out of your sticks.\nBEGINNERS TO ADVANCED TRAINING: Used by everyone from people just getting started to professional athletes and everyone in between. This is a complete system for joint mobilization, strength training, and deep fascial stretching to increase athletic performance, reduce the risk of injury, and speed recovery.\nTOTAL BODY MOBILITY SYSTEM: The Stick Mobility Training Bundle comes equipped with everything you need to improve your flexibility, joint strength and stability, and overall body mobility. It's a complete mobility training system.\nUSE ANYWHERE:  Designed for professional use in gyms, medical facilities, and on the sports field. They can be used outdoors, are 100% waterproof, and are easy to clean.",
+      "image": "https://m.media-amazon.com/images/I/51DowXvadcL._AC_SL1080_.jpg",
+      "id": 13
     },
     {
-      "id": 14,
-      "name": "Joyenergy Foam Roller for Deep Tissue Massager for Muscle and Myofascial Trigger Point Release",
-      "image": "https://m.media-amazon.com/images/I/61K4b1TcSlL._AC_SX679_.jpg",
+      "name": "WOD Nation Pull Up Assistance Bands (10-175lbs Band) - Best for Pullup Assist, Chin Ups, Resistance Bands Exercise, Stretch, Mobility Work & Serious Fitness - 41 inch Straps",
       "category": "Mobility",
-      "price": 15.99,
-      "description": "Muscle stretches and massages can be performed before and after fitness, exercise, and reduce stiffness. Relieve muscle soreness and tension, Penetrates deep into body muscles to quickly release myofascia, Improve muscle flexibility.",
-      "rating": 3.6
-    },
-    {
-      "id": 15,
-      "name": "Chirp Wheel Foam Roller - Targeted Muscle Roller for Deep Tissue Massage, Back Stretcher with Foam Padding, Supports Back Pain Relief",
-      "image": "https://gochirp.com/cdn/shop/products/chirp-3wheelpack-img-1-hero.png?v=1660582637&width=5000",
-      "category": "Mobility",
-      "price": 44.99,
-      "description": "Chirp Wheel+ is designed with trigger points in mind to break up tight muscle fibers and hard-to-reach parts in your back instead of putting undue pressure on your spine, so you can focus on deeper stretches without worries. Our 6\" wheel back stretcher gives deep tissue massage and specifically targets the area in contact with the muscles at any given point providing a satisfying amount of pressure in general.",
-      "rating": 4.5
+      "price": "13.97",
+      "description": "UNIQUE FLEXIBLE STICKS: The Stick Mobility Training Stick is comprised of a special synthetic material designed to be flexible and strong to create resistance, tension, leverage, stability, and body awareness.\nVIDEO LIBRARY OF EXERCISES AND WORKOUTS: Get unlimited access to 100’s of exercises and workouts so you can get the most benefit out of your sticks.\nBEGINNERS TO ADVANCED TRAINING: Used by everyone from people just getting started to professional athletes and everyone in between. This is a complete system for joint mobilization, strength training, and deep fascial stretching to increase athletic performance, reduce the risk of injury, and speed recovery.\nTOTAL BODY MOBILITY SYSTEM: The Stick Mobility Training Bundle comes equipped with everything you need to improve your flexibility, joint strength and stability, and overall body mobility. It's a complete mobility training system.\n100% Pure - Only the purest 100% natural latex rubber making these not only the most durable but also very eco friendly.\nSingle #1 (Red) Band - not a set : This band measures 1/2 inch wide, 4.5 mm thick and 41 inches in length. It offers resistance from 10-35 lbs. This band is a great beginner band for resistance exercises that range from bicep curls, squats or even overhead shoulder press. The #1 is also great if you are looking to do speed work by adding the band to your bench press, deadlift or squats.\nMake Fast Progress With Your Pull Up Progression : Don't have strict or kipping pull-ups yet, use one (or better yet two) of these to jump start your assisted chin up training. These cross-training equipement is used in gyms around the world and also works great on a home door chin-up bar.\nCombine Two Different Bands to Boost Your Strength Fast : We recommend that athletes use one light band and one heavy band together. Start your workout with the thin band. Then when you tire out switch to the thicker fitnessband. Then finally to squeeze out the last few reps, add them both together.\nPerfect For Home Workout : Our resistance bands can help you get a full body workout at home or in the great outdoors. Stay whole-body fit from the safety of your home.\nGreat Traveling Gym : No matter where you go, take a few resistance bands with you for a full-body workout from anywhere.\n",
+      "image": "https://m.media-amazon.com/images/I/61Y8K1OuxXL._AC_SL1500_.jpg",
+      "id": 14
     }
   ]
 }
