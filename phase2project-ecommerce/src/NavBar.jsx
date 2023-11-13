@@ -10,12 +10,12 @@ function NavBar() {
     
     <motion.div >
       <nav className="Navbar">
-        <div className="logo" onClick={() => navigate('/equipment-marketplace')}>
+        <div className="logo" onClick={() => navigate('/')}>
           Do you even Lift Bay
         </div>
         <ul>
           <li className="EquipmentMarketplace">
-            <Link to="/equipment-marketplace" className='NavBarLinks'>
+            <Link to="/" className='NavBarLinks'>
               <motion.div 
               whileHover={{ scale: 1.1 }}>
                  Home

@@ -39,7 +39,7 @@ function EquipmentMarkeplace({ equipment, addEquipmentToMarketplace , deleteItem
     <>
       <h1>Equipment Marketplace</h1>
 
-      <EquipmentList equipment={equipmentArray} />
+      <EquipmentList equipment={equipment} />
 
       <div className="form-container">
         <h2>Add New Equipment</h2>
@@ -101,4 +101,4 @@ function EquipmentMarkeplace({ equipment, addEquipmentToMarketplace , deleteItem
   );
 }
 
-export default EquipmentMarketplace;
+export default EquipmentMarkeplace;
